@@ -57,7 +57,7 @@ def show_password(passwords_dict):
 ===========================
 '''
   for key in passwords_dict:
-    s += f'{key}\t\t{passwords_dict[key]}'
+    s += f'{key}\t\t{passwords_dict[key]}\n'
   s+= '\n'
   print(s)
   input()
